@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="565" viewBox="0 0 960 565" role="img" aria-labelledby="title desc">
+<title id="title">Voltage drop at the same 12 ampere peak</title>
+<desc id="desc">From 23 volts open circuit, the 0.15 ohm path lands at 21.2 volts, above the 21 volt threshold. The 0.20 ohm path lands at 20.6 volts, below it.</desc>
+<rect width="960" height="565" rx="24" fill="#eff8f7"/>
+<g font-family="DejaVu Sans,sans-serif" fill="#102b3e">
+<text x="54" y="64" font-size="36" font-weight="bold">Same peak current, different voltage</text>
+<text x="54" y="108" font-size="24">23 V open circuit · 12 A load</text>
+<text x="54" y="168" font-size="25" font-weight="bold">Baseline · 0.15 Ω path</text>
+<text x="54" y="307" font-size="25" font-weight="bold">Higher resistance · 0.20 Ω path</text>
+<path d="M322 175v99 M322 317v137" stroke="#355266" stroke-width="3" stroke-dasharray="9 7"/>
+<path d="M826 215H372.4 M826 354H221.2" stroke="#9cbab8" stroke-width="5" stroke-linecap="round"/>
+<g fill="#355266"><circle cx="826" cy="215" r="7"/><circle cx="826" cy="354" r="7"/></g>
+<circle cx="372.4" cy="215" r="11" fill="#096962"/>
+<circle cx="221.2" cy="354" r="11" fill="#a23d1b"/>
+<text x="394" y="250" font-size="25" font-weight="bold" fill="#096962">21.2 V · pass</text>
+<text x="99" y="395" font-size="25" font-weight="bold" fill="#953618">20.6 V · fail</text>
+<path d="M70 455H826M70 455v11m252-11v11m252-11v11m252-11v11" fill="none" stroke="#355266" stroke-width="2"/>
+<g font-size="22" text-anchor="middle"><text x="70" y="495">20 V</text><text x="322" y="495">21 V</text><text x="574" y="495">22 V</text><text x="826" y="495">23 V</text></g>
+<text x="322" y="532" text-anchor="middle" font-size="22" font-weight="bold">21 V minimum</text>
+</g></svg>

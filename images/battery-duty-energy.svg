@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="530" viewBox="0 0 960 530" role="img" aria-labelledby="title desc">
+<title id="title">Where the mission's 90 watt-hours go</title>
+<desc id="desc">Three bars on the same scale show driving uses 60 watt-hours, waiting 10 and working 20. Their sum is 90 watt-hours in two hours.</desc>
+<rect width="960" height="530" rx="24" fill="#eff8f7"/>
+<g font-family="DejaVu Sans,sans-serif" fill="#102b3e">
+<text x="54" y="66" font-size="36" font-weight="bold">Where the 90 Wh goes</text>
+<text x="54" y="111" font-size="24">Average battery power × time in hours</text>
+<g font-size="24" font-weight="bold">
+<text x="54" y="168">Driving · 60 W for 60 min</text>
+<text x="54" y="269">Waiting · 20 W for 30 min</text>
+<text x="54" y="370">Working · 40 W for 30 min</text>
+</g>
+<g fill="#096962">
+<rect x="54" y="184" width="630" height="42" rx="8"/>
+<rect x="54" y="285" width="105" height="42" rx="8"/>
+<rect x="54" y="386" width="210" height="42" rx="8"/>
+</g>
+<g font-size="26" font-weight="bold">
+<text x="700" y="215">60 Wh</text>
+<text x="175" y="316">10 Wh</text>
+<text x="280" y="417">20 Wh</text>
+</g>
+<path d="M54 456H906" stroke="#9cbab8" stroke-width="2"/>
+<text x="54" y="499" font-size="25" font-weight="bold">90 Wh total · 120 min · 45 W average</text>
+</g></svg>

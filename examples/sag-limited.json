@@ -1,0 +1,31 @@
+{
+  "phases": [
+    {
+      "name": "Driving",
+      "minutes": 60,
+      "average_w": 60
+    },
+    {
+      "name": "Waiting",
+      "minutes": 30,
+      "average_w": 20
+    },
+    {
+      "name": "Working",
+      "minutes": 30,
+      "average_w": 40
+    }
+  ],
+  "pack": {
+    "nominal_v": 24,
+    "capacity_ah": 6,
+    "usable_fraction": 0.8,
+    "reserve_fraction": 0.1
+  },
+  "peak": {
+    "open_circuit_v": 23,
+    "current_a": 12,
+    "path_ohm": 0.2,
+    "min_load_v": 21
+  }
+}
